@@ -12,8 +12,6 @@ mydb = {
 def dbconnect():
     try:
         connection = mysql.connector.connect(**mydb)
-        if connection.is_connected():
-            print("jippi connection funker!!")
         return connection
         
         
