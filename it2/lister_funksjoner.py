@@ -127,18 +127,22 @@ skriv_filmer(filmliste)
 
 
 def legg_til_film(filmliste, film):
-    sjekkFilm(filmliste, film)
     filmliste.append(film)
     
 
 
-legg_til_film(filmliste, "Shrek")
+legg_til_film(filmliste,)
 
 def sjekkFilm(filmliste, film):       
     if film in filmliste:
        print("Filmen din er i lista!")
+       skriv_filmer(filmliste)
     else: 
         print("Filmen er ikke i listen :,(")
+        skriv_filmer(filmliste)
        
 
 sjekkFilm(filmliste,)
+
+
+
