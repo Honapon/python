@@ -2,8 +2,9 @@ import requests
 from database import dbconnect
 
 #TO DO
-#lage nettside/display data på browser
-#MBY lage slik at data blir hentet fra brukere på nettside. 
+#lage nettside/display data på browser eller terminal
+#alstå gjøre ^^^^^^^ pent. 
+#MBY lage slik at data blir hentet fra brukere på database. 
 
 
 

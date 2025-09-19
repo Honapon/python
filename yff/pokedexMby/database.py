@@ -8,10 +8,19 @@ mydb = {
     'database': 'pokedex'
 }
 
+mydbLh = {
+    'host': '127.0.0.1',
+    'user': 'root',
+    'password': 'Korn123',
+    'database': 'pokedex'
+}
+
+
 # Funksjon for å opprette en tilkobling til databasen
 def dbconnect():
     try:
         connection = mysql.connector.connect(**mydb)
+        #connection = mysql.connector.connect(**mydbLh)
         return connection
         
         
