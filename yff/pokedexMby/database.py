@@ -13,7 +13,7 @@ mydbLh = {
     'user': 'root',
     'password': 'Korn123',
     'database': 'pokedex'
-}
+}    
 
 
 # Funksjon for å opprette en tilkobling til databasen
